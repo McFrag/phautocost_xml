@@ -1,0 +1,37 @@
+<scenario label="Προασφαλιστικός">
+    <step mode="alert">
+    <html>
+        <![CDATA[
+        <h1>Phautocost</h1>
+        <h3>Προασφαλιστικός</h3>
+        <img src="autocost://123">
+        ]]>
+    </html>
+    <button>OK</button>
+    </step>
+    <step mode="photo" min="1" id="photoid1">
+    <descr>Χιλιομετριτής</descr>
+    <html>
+        <![CDATA[
+        <h1>Χιλιομετριτής</h1>
+        <h3>Φωτογραφίστε τον χιλιομετριτή</h3>
+        <img src="autocost://123">
+        ]]>
+    </html>
+    </step>
+    <step mode="photo" min="2" max="" id="photoid2">
+    <descr>Ελαστικών</descr>
+    <html>
+        <![CDATA[
+        <h1>Ελαστικά</h1>
+        <h3>Φωτογραφίστε όλα τα ελαστικά</h3>
+        <img src="autocost://123">
+        ]]>
+    </html>
+    </step>
+    <step mode="form">
+    <title>Συμπληρώστε τα πεδία</title>
+    <field id="cost1" type="text" label="Βαφέας"/>
+    <field id="vat" type="text" label="ΦΠΑ" def="24" />
+    </step>
+</scenario>
