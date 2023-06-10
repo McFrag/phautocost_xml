@@ -1,0 +1,44 @@
+<scenario label="Επιθεώρηση τόπου">
+    <step mode="form" label="Αρχή">
+    <title>Συμπληρώστε τα πεδία</title>
+    <field id="cost1" type="text" label="Αρ. Κυκλοφορίας"/>
+    <button type="OK">Συνέχεια</button>
+    </step>
+    <step mode="alert" label="Οδηγίες">
+    <html>
+        <![CDATA[
+        <h1>Phautocost</h1>
+        <h3>Ακολουθήστε τις οδηγίες</h3>
+        <img src="autocost://123">
+        ]]>
+    </html>
+    <button>OK</button>
+    </step>
+    <step mode="photo" min="4" max="8" id="photoid1" label="Περιμετρ.">
+    <descr>Περιμετρικές</descr>
+    <html>
+        <![CDATA[
+        <h1>Περιμετρικές</h1>
+        <h3>Φωτογραφίστε περιμετρικά το όχημα</h3>
+        <img src="autocost://123">
+        ]]>
+    </html>
+    </step>
+    <step mode="photo" min="2" max="" id="photoid2" label="Ελαστικών">
+    <descr>Ελαστικών</descr>
+    <html>
+        <![CDATA[
+        <h1>Ελαστικά</h1>
+        <h3>Φωτογραφίστε όλα τα ελαστικά</h3>
+        <img src="autocost://123">
+        ]]>
+    </html>
+    </step>
+    <step mode="form" label="Σημειώσεις">
+    <title>Συμπληρώστε τα πεδία</title>
+    <field id="cost1" type="text" label="Βαφέας"/>
+    <field id="vat" type="text" label="ΦΠΑ" def="24" />
+    <button type="OK">Συνέχεια</button>
+    <button type="PREV">Επιστροφή</button>
+    </step>
+</scenario>
