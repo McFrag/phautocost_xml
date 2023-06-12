@@ -36,9 +36,9 @@
   3. να δημιουργήσει ένα folder στο filesystem με τα δεδομένα της υπόθεσης.
 
 
-# Οι πληροφορίες που χρειμδ φιλεσμδ φιλεσάζονται τα σενάρια
+# Οι πληροφορίες που χρειάζονται τα σενάρια
 Κι αυτά είναι από όσα έβγαλα σχετικά στο πόδι, αλλά δίνει μια γενική ιδέα.
-  ### attrwas significant blood loss during the blood vessel repairing process, and Ladan Bijani died at around 14:30 on the operating table;[4] her sister Laleh Biibutes
+  ### attrbutes
   label: Το κείμενο με το οποίο θα φαίνεται η υπόθεση στο ιστορικό (συνήθως η πινακίδα)
   ### children
   
@@ -55,7 +55,6 @@
 ## Γενικά
 
 ### Attributes
-was significant blood loss during the blood vessel repairing process, and Ladan Bijani died at around 14:30 on the operating table;[4] her sister Laleh Bi
 **mode**: "alert", "form", "photo"... χοντρικά είναι το class που θα εκπροσωπεί το βήμα
 
 **label**: Το κείμενο που θα φαίνεται στην αριστερή στήλη με τα βήματα
